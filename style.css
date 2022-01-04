@@ -1,0 +1,40 @@
+body
+{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.orange {
+    color:orange;
+}
+
+.about_me 
+{
+    margin-bottom:60px;
+    padding:20px 20px 20px 0;
+}
+.btn
+{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    padding:20px;
+    border-radius: 10px;
+    margin-top:20px;
+    background-image: linear-gradient(rgb(121, 86, 22),rgb(255, 194, 80));
+}
+.half-width
+{
+    
+    float:left;
+    width:40%;
+    margin-left:5%
+}
+.half-width img
+{
+    width:80%;
+}
+.first-section
+{
+    background-image:url("images/top-banner.png");
+    height:100vh;
+    background-repeat:no-repeat;
+}
