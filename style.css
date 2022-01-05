@@ -51,15 +51,33 @@ body
 .two-quality
 {
     display:flex;
+    background-image:url("images/exp-bg.png");
+    background-repeat: no-repeat;
 }
 .two-quality div
 {
     text-align:justify;
-    box-shadow: 3px 3px gray, -1em 0 .4em gray;
-    margin:0 5% 10% 10%;
+    width:40%;
+    box-shadow: 10px 5px 5px gray;
+    margin:0 5% 10% 5%;
 
 }
 .experience
 {
-
+ border-left: 7px solid;
+ 
+ border-image:linear-gradient(tomato,red);
+ border-image-slice: 1;
+ padding:10px;
+}
+.experience0
+{
+    border-left: 7px solid;
+    border-image:linear-gradient(indigo,blue);
+    border-image-slice: 1;
+    padding:10px;
+}
+footer
+{
+    text-align:center;
 }
